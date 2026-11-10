@@ -12,11 +12,40 @@ El proyecto nace de la necesidad de organizar las actividades del día a día, e
 
 ## Funcionalidades
 
-*Pendiente de documentar las funcionalidades concretas de la aplicación.*
+LifeBlocks está diseñada para facilitar la organización personal y el seguimiento de objetivos.
+
+La aplicación cuenta con diferentes apartados:
+
+Bloques: organización de los objetivos personales en diferentes áreas.
+
+Misiones: gestión de las tareas y actividades que ayudan a alcanzar los objetivos.
+
+Historial: seguimiento de la actividad realizada.
+
+Biblioteca: espacio para gestionar información o elementos relacionados con la organización personal.
+
 
 ## Estructura del proyecto
 
-*Pendiente de completar.*
+El proyecto sigue una organización por paquetes y responsabilidades para separar la interfaz de usuario, la gestión de datos y la lógica de la aplicación.
+
+data: contiene las entidades, DAO y la configuración de la base de datos local mediante Room.
+
+ui: contiene los componentes visuales y las pantallas de la aplicación.
+
+blocks: interfaz relacionada con los bloques.
+
+history: pantallas del historial.
+
+library: interfaz de la biblioteca.
+
+navigation: navegación entre las diferentes secciones.
+
+theme: configuración visual y temas de la aplicación.
+
+viewmodel: contiene los ViewModels encargados de gestionar los datos y comunicarlos a la interfaz.
+
+MainActivity: punto de entrada de la aplicación.
 
 ## Instalación y ejecución
 
@@ -30,4 +59,4 @@ El proyecto nace de la necesidad de organizar las actividades del día a día, e
 
 ## Autor
 
-Proyecto desarrollado como parte de mi formación en **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+Proyecto desarrollado como aplicación personal para desarrollar mis conocimientos.
